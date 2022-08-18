@@ -1,0 +1,163 @@
+
+
+body
+{
+    background-color:beige;
+}
+
+img{width: 135px;}
+
+
+*{
+    box-sizing: border-box;
+}
+
+#header
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: auto;
+    
+}
+
+#header #nav-bar ul 
+{
+    list-style: none; /**removes dots at begining of links*/
+}
+
+#header #nav-bar .hover
+{
+    display: inline-block; /*display lists side by side*/
+    padding: 45px 75px;
+}
+
+.hover:hover{
+    background-color:burlywood;
+    border: 1px solid black;
+}
+
+h1
+{
+    
+   float: right;
+   margin-right: 40%;
+   font-size: 85px;
+  border-bottom: 2px solid black;
+}
+
+section
+{
+    margin:20% 10%;
+    border-bottom: 5px solid gray;
+    border-top: 5px solid black;
+    padding:5% 15% ;
+}
+
+section
+{
+    display:flex;
+    background-color:blanchedalmond;
+}
+
+.in-car-divs{
+    display:inline-block;
+    font-size:65px;
+}
+
+.in-car-divs .img-div
+{
+    border-left: 3px solid black;
+    margin-bottom:5% ;
+}
+
+.in-car-divs .p-div
+{
+    padding:0px 75px;
+    border-right:3px solid black;
+    border-left:3px solid black;
+}
+
+#section-video #video
+{
+    width:90%;
+}
+
+#h2-video
+{
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#section-form
+{
+    display:flex;
+}
+
+#section-form #form
+{
+    height:auto;
+    font-size:65px;
+}
+
+#section-form #email
+{
+    height:250px;
+    width:500px;
+}
+
+#section-form #submit
+{
+    height:250px;
+    width:250px;
+}
+
+/**footer section*/
+
+footer
+{
+    height:auto;
+    width:auto;
+    margin:20% 10%;
+	display: flex;
+	justify-content:flex-start;
+    background-color:blanchedalmond;
+}
+
+footer ul
+{
+	list-style: none;
+}
+
+footer ul li 
+{
+	display: inline-block;
+}
+
+footer .f-img
+{
+	text-decoration: none;
+    height:250px;
+     
+    width:350px;
+    padding-left:30%;
+    
+}
+
+.f-img:hover{
+    height: auto;
+  
+    
+  
+}
+
+#goup:hover{
+    background-color:burlywood;
+    border: 1px solid black;
+    padding: 0px 0px;
+    margin-left:50px;
+    height: auto;
+}
+
+
